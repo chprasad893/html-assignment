@@ -1,0 +1,91 @@
+html,body {
+  height: 100%;
+  font-family: 'Open Sans',sans-serif;
+}
+
+/*
+==navbar
+*/
+
+nav {
+  position: fixed;
+  width: 100%;
+}
+
+.navbar-header {
+  font-family: 'Open Sans',sans-serif;
+  font-size: 25px;
+  color: whitesmoke;
+  font-weight: 700;
+  float: left;
+  padding:30px 120px;
+}
+
+nav li:hover{
+color: #1d9eb3;
+}
+ul {
+  float: right;
+  padding-right: 60px;
+}
+
+ul li{
+  display: inline-block;
+  padding: 35px 20px;
+  color: whitesmoke;
+  font-weight: 600;
+}
+
+/*
+==endofnavbar
+*/
+
+
+/*
+== Hero Unit
+*/
+.hero-unit {
+  height: 100%;
+  width: 100%;
+  background: url('../images/bg.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.hero-unit-caption {
+  position: absolute;
+  left: 8%;
+  top: 45%;
+}
+
+.skyblue {
+  color: #1d9eb3;
+}
+
+.hero-unit-caption .headline {
+  font-weight: 900;
+  font-size: 50px;
+  color: whitesmoke;
+  text-transform: uppercase;
+  letter-spacing: 1.6px;
+}
+
+.hero-unit-caption .subhead {
+  font-weight: 600;
+  font-size: 18px;
+  color: whitesmoke;
+  letter-spacing:  1.5px;
+  text-transform: uppercase;
+  padding-top: 15px;
+}
+
+/*
+==End Hero Unit
+*/
+
+
+.full {
+  background-size: contain;
+  height: 100%;
+  width: 100%;
+}
