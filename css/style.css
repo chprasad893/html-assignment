@@ -8,26 +8,33 @@ html,body {
 */
 
 nav {
+  background-color:#898b93;
   position: fixed;
   width: 100%;
 }
 
+.icon{
+  /*color:#1d9eb3;*/
+  color: lightgreen;
+}
+
 .navbar-header {
+  text-decoration: none;
   font-family: 'Open Sans',sans-serif;
   font-size: 25px;
   color: whitesmoke;
   font-weight: 700;
   float: left;
-  padding:30px 120px;
+  padding-left: 103px;
+  padding-top: 30px;
 }
 
-nav li:hover{
-color: #1d9eb3;
+ nav li:hover{
+/*color: #1d9eb3;*/
+color: black;
+
 }
-ul {
-  float: right;
-  padding-right: 60px;
-}
+
 
 ul li{
   display: inline-block;
@@ -40,6 +47,10 @@ ul li{
 ==endofnavbar
 */
 
+ul {
+  float: right;
+  padding-right: 60px;
+}
 
 /*
 == Hero Unit
@@ -49,7 +60,7 @@ ul li{
   width: 100%;
   background: url('../images/bg.jpg');
   background-size: cover;
-  background-attachment: fixed;
+ /*background-attachment: fixed;*/
 }
 
 .hero-unit-caption {
@@ -67,14 +78,14 @@ ul li{
   font-size: 50px;
   color: whitesmoke;
   text-transform: uppercase;
-  letter-spacing: 1.6px;
+  letter-spacing: 0px;
 }
 
 .hero-unit-caption .subhead {
   font-weight: 600;
   font-size: 18px;
   color: whitesmoke;
-  letter-spacing:  1.5px;
+  letter-spacing:  2.2px;
   text-transform: uppercase;
   padding-top: 15px;
 }
@@ -82,10 +93,19 @@ ul li{
 /*
 ==End Hero Unit
 */
-
-
-.full {
-  background-size: contain;
-  height: 100%;
+footer{
+  height: 10%;
   width: 100%;
+  background-color: grey;
+}
+.links{
+  font-size: 35px;
+  padding-top: 10px;
+}
+footer .text{
+padding-top: 20px;
+  width: 30%;
+  font-size: 20px;
+  font-weight: 300;
+
 }
